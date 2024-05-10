@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="./public/u-logo-image.avif" style="height: 50px; width: 50px;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="loc.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1> Contact Us</h1>
+    </section>
+
+
+    <!-- ------contact Us ------ -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?
+        pb=!1m18!1m12!1m3!1d497698.77492875396!2d77.3012694531081!3d12.954459
+        531495921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae167
+        0c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!
+        2sin!4v1703605271512!5m2!1sen!2sin" width="600" height="450" style="border:0;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="Contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Bangalore, Kanataka, IN</p>
+                    </span>   
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+1 0123456789</h5>
+                        <p>Monday to Saturday,10AM to 6PM</p>
+                    </span>   
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Email us your quer</p>
+                    </span>   
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="2fc70540-5bfd-4bb8-88ce-958972765d55">
+                    <input type="text" name="name" placeholder="Enter your name" required >
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="message" placeholder="Enter your subject" required>
+                    <textarea  rows="8"  name="filed message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- ---- footer ------ -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.is
+         Vel asperiores, velit, accusamus nam distinctio illum quo <br>
+         fugiat, illo quidem ab magni sunt saepe provident harum ullam </p>
+         <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+         </div>
+         <p>copyright <i class="fa-regular fa-copyright"></i> h r k</p>
+    </section>
+
+
+
+
+     <!-- -------javascript for toggle menu----- -->
+     <script src="./script.js"></script>
+
+
+    
+</body>
+</html>
